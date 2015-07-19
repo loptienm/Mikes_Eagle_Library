@@ -10916,7 +10916,7 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="TO-263-3">
+<device name="TO-263-3" package="TO-263-3">
 <connects>
 <connect gate="G$1" pin="COM" pad="2 4"/>
 <connect gate="G$1" pin="IN" pad="1"/>

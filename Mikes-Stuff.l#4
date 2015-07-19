@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -7274,6 +7274,42 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="1.27" y="0.635"/>
 </polygon>
 </package>
+<package name="SPARK_LOGO">
+<polygon width="0.0254" layer="29">
+<vertex x="0.7366" y="3.8354"/>
+<vertex x="1.7018" y="2.3114"/>
+<vertex x="0.7366" y="0.7366"/>
+<vertex x="2.286" y="1.7526"/>
+<vertex x="3.8608" y="0.7112"/>
+<vertex x="2.8448" y="2.3114"/>
+<vertex x="3.81" y="3.8608"/>
+<vertex x="2.286" y="2.8702"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="2.286" y="4.5466"/>
+<vertex x="2.032" y="3.3782"/>
+<vertex x="2.286" y="3.2258"/>
+<vertex x="2.54" y="3.3782"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.0508" y="2.3114"/>
+<vertex x="1.2192" y="2.0828"/>
+<vertex x="1.3716" y="2.3114"/>
+<vertex x="1.2192" y="2.54"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="3.3528" y="2.54"/>
+<vertex x="3.2004" y="2.3114"/>
+<vertex x="3.3528" y="2.0828"/>
+<vertex x="4.4704" y="2.3114"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="2.032" y="1.1938"/>
+<vertex x="2.286" y="0.0762"/>
+<vertex x="2.54" y="1.1938"/>
+<vertex x="2.286" y="1.3716"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO-MEGA">
@@ -11057,6 +11093,18 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </gates>
 <devices>
 <device name="" package="SPARK_LOGO2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARK_LOGO">
+<gates>
+<gate name="G$1" symbol="SPARK_LOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LARGE" package="SPARK_LOGO">
 <technologies>
 <technology name=""/>
 </technologies>
