@@ -7239,19 +7239,19 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-5.08" y="-13.97" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SPARK_LOGO2">
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="25">
 <vertex x="2.2606" y="1.1684"/>
 <vertex x="1.6764" y="1.2954"/>
 <vertex x="1.6002" y="1.1684"/>
 <vertex x="1.6764" y="1.0414"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="25">
 <vertex x="0.0254" y="1.1684"/>
 <vertex x="0.6096" y="1.2954"/>
 <vertex x="0.7112" y="1.1684"/>
 <vertex x="0.6096" y="1.0414"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="25">
 <vertex x="0.381" y="1.9304"/>
 <vertex x="0.8636" y="1.1684"/>
 <vertex x="0.3556" y="0.3556"/>
@@ -7261,17 +7261,53 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="1.9304" y="1.9304"/>
 <vertex x="1.143" y="1.4478"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="25">
 <vertex x="1.143" y="2.286"/>
 <vertex x="1.016" y="1.6764"/>
 <vertex x="1.143" y="1.6002"/>
 <vertex x="1.27" y="1.6764"/>
 </polygon>
-<polygon width="0.0254" layer="21">
+<polygon width="0.0254" layer="25">
 <vertex x="1.143" y="0.7112"/>
 <vertex x="1.016" y="0.635"/>
 <vertex x="1.143" y="0.0254"/>
 <vertex x="1.27" y="0.635"/>
+</polygon>
+</package>
+<package name="SPARK_LOGO">
+<polygon width="0.0254" layer="29">
+<vertex x="0.7366" y="3.8354"/>
+<vertex x="1.7018" y="2.3114"/>
+<vertex x="0.7366" y="0.7366"/>
+<vertex x="2.286" y="1.7526"/>
+<vertex x="3.8608" y="0.7112"/>
+<vertex x="2.8448" y="2.3114"/>
+<vertex x="3.81" y="3.8608"/>
+<vertex x="2.286" y="2.8702"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="2.286" y="4.5466"/>
+<vertex x="2.032" y="3.3782"/>
+<vertex x="2.286" y="3.2258"/>
+<vertex x="2.54" y="3.3782"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.0508" y="2.3114"/>
+<vertex x="1.2192" y="2.0828"/>
+<vertex x="1.3716" y="2.3114"/>
+<vertex x="1.2192" y="2.54"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="3.3528" y="2.54"/>
+<vertex x="3.2004" y="2.3114"/>
+<vertex x="3.3528" y="2.0828"/>
+<vertex x="4.4704" y="2.3114"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="2.032" y="1.1938"/>
+<vertex x="2.286" y="0.0762"/>
+<vertex x="2.54" y="1.1938"/>
+<vertex x="2.286" y="1.3716"/>
 </polygon>
 </package>
 </packages>
@@ -11057,6 +11093,18 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 </gates>
 <devices>
 <device name="" package="SPARK_LOGO2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARK_LOGO">
+<gates>
+<gate name="G$1" symbol="SPARK_LOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LARGE" package="SPARK_LOGO">
 <technologies>
 <technology name=""/>
 </technologies>
